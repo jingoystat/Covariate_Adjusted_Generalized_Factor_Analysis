@@ -1,4 +1,4 @@
-# Supplemantary Code to manuscript ``Statistical Inference for Covariate-Adjusted and Interpretable Generalized Latent Factor Model with Application to Testing Fairness"
+# Supplemantary Code to manuscript "Statistical Inference for Covariate-Adjusted and Interpretable Generalized Latent Factor Model with Application to Testing Fairness"
 
 ## Paper Abstract
 
