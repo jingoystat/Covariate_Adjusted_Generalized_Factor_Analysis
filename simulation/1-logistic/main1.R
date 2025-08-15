@@ -1,8 +1,3 @@
-###########################################################################
-# date : Jan 2023
-# this file provides the executive functions for GFA + covariate simulation
-# Setting 1: simple sparse coefficient matrix
-###########################################################################
 library(glmnet) 
 library(MASS)
 library(mvtnorm)
