@@ -1,7 +1,3 @@
-#########################################################################
-# date : Jan 2023
-# this file provides the source functions for GFA + covariate simulation
-##########################################################################
 library(glmnet) 
 library(MASS)
 library(expm)
