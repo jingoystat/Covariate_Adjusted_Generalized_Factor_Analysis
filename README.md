@@ -8,4 +8,5 @@ Latent variable models are popularly used to measure latent embedding factors fr
 
 Each folder contains the main scripts `main*.R` to run the proposed method and source file `functions*.R` for 
 
-- * = 1: mai
+- `*` = 1: scripts to run the proposed method under the setting of Section 5 of the main text.
+- 
