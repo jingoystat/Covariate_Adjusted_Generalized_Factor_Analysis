@@ -6,7 +6,20 @@ Latent variable models are popularly used to measure latent embedding factors fr
 
 ### Simulation
 
-Each folder contains the main scripts `main*.R` to run the proposed method and source file `functions*.R` for 
+Each simulation folder includes a main script `main*.R` (to run the experiment) and a source file `functions*.R`. 
 
-- `*` = 1: scripts to run the proposed method under the setting of Section 5 of the main text.
-- 
+- Sub-directory 1 (`* = 1`): scripts for the setting in Section 5 of the main text.
+- Sub-directory 2 (`* = 2`): scripts for the setting of Section F.2 of the Supplementary Materials. 
+- Sub-directory 3 (`* = 3`): scripts for the setting of Section F.3 of the Supplementary Materials. 
+- Sub-directory 4 (`* = 4`): scripts for the setting of Section F.4 of the Supplementary Materials. 
+- Sub-directory 5 (`* = 5`): scripts for the setting of Section F.5 of the Supplementary Materials. 
+- Sub-directory 6 (`* = 6`): scripts for the setting of Section F.6 of the Supplementary Materials. 
+- Sub-directory 7 (`* = 7`): scripts for the setting of Section F.7 of the Supplementary Materials. 
+- Sub-directory 8 (`* = 8`): scripts for the setting of Section F.8 of the Supplementary Materials.
+
+### Application
+
+The raw datasets (`CY07MSP_STU_QQQ.SAS7BDAT` and `CY07MSP_STU_COG.SAS7BDAT`) can be downloaded from [OECD PISA 2018 Database](https://www.oecd.org/en/data/datasets/pisa-2018-database.html#data).
+
+The main script `real-data-TAP.R` runs the proposed method on the PISA 2018 data and produces point and interval estimation results for the gender effect and school strata covariate effects. Source code are provided in  `functions_missing.R`.
+
