@@ -8,7 +8,7 @@ library("psych")
 #library("irtoys")
 library("mirt")
 
-source("functions7.R")
+source("functions8.R")
 
 args <- commandArgs(TRUE)
 n <- as.numeric(args[[1]])        # X_i dimension 
