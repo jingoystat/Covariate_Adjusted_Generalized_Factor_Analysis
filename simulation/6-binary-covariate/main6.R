@@ -6,7 +6,7 @@ library("usethis")
 library("psych")
 library("ltm")
 
-source("functions3.R")
+source("functions6.R")
 
 args <- commandArgs(TRUE)
 n <- as.numeric(args[[1]])        # X_i dimension 
