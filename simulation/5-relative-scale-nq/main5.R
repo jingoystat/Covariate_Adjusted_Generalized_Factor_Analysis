@@ -8,7 +8,7 @@ library("ltm")
 library("irtoys")
 library("mirt")
 
-source("functions6.R")
+source("functions5.R")
 
 args <- commandArgs(TRUE)
 n <- as.numeric(args[[1]])        # X_i dimension 
