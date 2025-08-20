@@ -6,7 +6,7 @@ library("psych")
 library("mirt")
 library(gtools)
 
-source("functions8.R")
+source("functions3.R")
 
 args <- commandArgs(TRUE)
 n <- as.numeric(args[[1]])        # X_i dimension 
